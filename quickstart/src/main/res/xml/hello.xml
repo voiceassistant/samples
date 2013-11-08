@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<module xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <pattern name="UserName" value="*" />
+
+    <command android:id="@+id/cmd_hello">
+        <pattern value="привет* *"/>
+    </command>
+
+    <command android:id="@+id/cmd_name">
+        <pattern value="* меня зовут $UserName"/>
+    </command>
+
+</module>

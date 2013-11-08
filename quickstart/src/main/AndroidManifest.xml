@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quickstart"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="18" />
+
+    <application android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher">
+
+        <service android:name=".HelloAgent">
+
+            <intent-filter>
+                <action android:name="mobi.voiceassistant.intent.action.COMMAND"/>
+                <data android:scheme="assist" android:host="mobi.voiceassistant.ru"/>
+            </intent-filter>
+
+            <meta-data android:name="mobi.voiceassistant.MODULE" android:resource="@xml/hello"/>
+
+        </service>
+    </application>
+
+</manifest>

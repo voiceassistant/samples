@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AssistantQuickStart</string>
+    <string name="hello_hello">Привет, %1$s!</string>
+    <string name="speech_hello">привет %1$s</string>
+    <string name="hello_say_name">Привет. А как тебя зовут?</string>
+    <string name="hello_say_again">Прости, не понимаю. Как тебя зовут?</string>
+    <string name="hello_cancel">Пока</string>
+</resources>
